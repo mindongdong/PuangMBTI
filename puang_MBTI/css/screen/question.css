@@ -1,0 +1,53 @@
+.qna{
+    display: none;
+    background-color:cornflowerblue;
+    margin: 20%;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question{
+    width: 300px;
+    height: 50px;
+    padding: 25px;
+    background-color:darkcyan;
+    text-align: center;
+    text-decoration: none;
+}
+
+.answer_button{
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    background-color:darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.answer_button:hover,
+.answer_button:focus,
+.answer_button:active{
+    background: rebeccapurple;
+    outline: 0;
+}
+
+.status{
+    height: 25px;
+    width: 80%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    background-color: tomato;
+    border-radius: 20px;
+}

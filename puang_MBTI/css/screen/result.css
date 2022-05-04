@@ -1,0 +1,22 @@
+.result{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.result-nameBox{
+    margin-bottom: 50px;
+}
+
+.result-imgBox__img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.result-descBox__desc1,
+.result-descBox__desc2{
+    margin-bottom: 30px;
+}
