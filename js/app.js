@@ -49,10 +49,9 @@ function calResult(){
     const result_MBTI = pointList[15].name;
     console.log(pointList, result_MBTI);
 
-    for(let k = 0; k < resultList.length; k++){
-        if(result_MBTI === resultList[k].type){
-            console.log(resultList[k].name);
-            return k;
+    for(let a = 0; a < resultList.length; a++){
+        if(result_MBTI === resultList[a].type){
+            return a;
         }
     }
 } 
