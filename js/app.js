@@ -44,8 +44,6 @@ function calResult(){
         } else if (a.value < b.value) {
             return -1;
         }
-          // a must be equal to b
-          return 0;
     })
 
     const result_MBTI = pointList[15].name;
