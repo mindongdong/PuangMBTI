@@ -53,7 +53,6 @@ function calResult(){
 
     for(let k = 0; k < resultList.length; k++){
         if(result_MBTI === resultList[k].type){
-            console.log(resultList[k].name);
             return k;
         }
     }
