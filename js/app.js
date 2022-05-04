@@ -44,16 +44,14 @@ function calResult(){
         } else if (a.value < b.value) {
             return -1;
         }
-          // a must be equal to b
-          return 0;
     })
 
     const result_MBTI = pointList[15].name;
     console.log(pointList, result_MBTI);
 
-    for(let k = 0; k < resultList.length; k++){
-        if(result_MBTI === resultList[k].type){
-            return k;
+    for(let a = 0; a < resultList.length; a++){
+        if(result_MBTI === resultList[a].type){
+            return a;
         }
     }
 } 
