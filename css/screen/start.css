@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: column;
 
-    background-image: url("img/start.svg");
+    background-image: url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/start.svg");
     background-size: cover;
     background-position: center;
 }

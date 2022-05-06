@@ -11,7 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background-image: url("img/intro.svg");
+    background-image: url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/intro.svg");
     background-size: cover;
     background-position: center;
 

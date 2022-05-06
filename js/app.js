@@ -67,7 +67,7 @@ function setResult(){
     const resultImg = document.createElement('img');
     const imgBox = document.querySelector('.result-imgBox');
 
-    let imgURL = 'img/' + (resultIndex+1) + '_A.svg'
+    let imgURL = 'https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/' + (resultIndex+1) + '_A.svg'
     resultImg.src = imgURL;
     resultImg.classList.add('result-imgBox__img')
     imgBox.appendChild(resultImg);
