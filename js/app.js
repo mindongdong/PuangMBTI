@@ -1,9 +1,12 @@
+const intro_main = document.querySelector(".intro-main")
 const start_main = document.querySelector(".start-main");
 const qna = document.querySelector(".qna");
 const result = document.querySelector(".result");
 const start_button = document.querySelector(".start-main__button");
+const intro_button = document.querySelector(".intro-main__button");
 const endPoint = 12;
 
+intro_button.addEventListener('click', intro);
 start_button.addEventListener('click', start);
 
 //결과 계산
@@ -64,7 +67,7 @@ function setResult(){
     const resultImg = document.createElement('img');
     const imgBox = document.querySelector('.result-imgBox');
 
-    let imgURL = 'img/' + (resultIndex+1) + '.jpg'
+    let imgURL = 'img/' + (resultIndex+1) + '_A.svg'
     resultImg.src = imgURL;
     resultImg.classList.add('result-imgBox__img')
     imgBox.appendChild(resultImg);
@@ -148,15 +151,27 @@ function nextQ(){
     // console.log(index, qnaList[index].q, qnaList[index].a);
 }
 
-//시작 버튼 작동
-function start(){
-    start_main.style.animation = "fadeOut 1s";
+//인트로 화면 넘어가기 (MBTI 검사 시작)
+function intro(){
+    intro_main.style.animation = "fadeOut 1s";
     setTimeout(()=>{
         qna.style.animation = "fadeIn 1s";
         setTimeout(()=>{
-            start_main.style.display = "none";
+            intro_main.style.display = "none";
             qna.style.display = "flex";
         }, 400)
         nextQ();
+    }, 400);
+}
+
+//시작 화면
+function start(){
+    start_main.style.animation = "fadeOut 1s";
+    setTimeout(()=>{
+        intro_main.style.animation = "fadeIn 1s";
+        setTimeout(()=>{
+            start_main.style.display = "none";
+            intro_main.style.display = "flex";
+        }, 400)
     }, 400);
 }

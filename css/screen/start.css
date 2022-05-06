@@ -1,12 +1,35 @@
 .start-main{
-    width: 60%;
-    background-color:thistle;
-    margin: 5%;
-    padding: 20%;
+    width: 100vw;
+    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-image: url("/img/start.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.start-main__button{
+    /* 박스 설정 */
+    width: 40%;
+    height: 10%;
+    background-color:rgb(173, 32, 32);
+
+    /* 텍스트 설정 */
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    /* 버튼 옵션 */
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .start-main__header{
@@ -46,15 +69,3 @@
     padding: 5%;
 }
 
-.start-main__content > button{
-    width: 100%;
-    height: 50px;
-    background-color:darkgoldenrod;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    cursor: pointer;
-    transition: 0.5s;
-}

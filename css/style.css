@@ -5,3 +5,17 @@
 @import "screen/start.css";
 @import "screen/question.css";
 @import "screen/result.css";
+@import "screen/intro.css";
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("/img/intro.svg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

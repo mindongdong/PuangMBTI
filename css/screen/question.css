@@ -1,8 +1,5 @@
 .qna{
     display: none;
-    background-color:cornflowerblue;
-    margin: 20%;
-    padding: 10%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
