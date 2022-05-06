@@ -1,3 +1,4 @@
+const body = document.querySelector("body");
 const intro_main = document.querySelector(".intro-main")
 const start_main = document.querySelector(".start-main");
 const qna = document.querySelector(".qna");
@@ -82,9 +83,9 @@ function setResult(){
 
 //결과화면 전환
 function goResult(){
-    qna.style.animation = "fadeOut 1s";
+    qna.style.animation = "fadeOut 2s";
     setTimeout(()=>{
-        result.style.animation = "fadeIn 1s";
+        result.style.animation = "fadeIn 1.5s";
         setTimeout(()=>{
             qna.style.display = "none";
             result.style.display = "flex";
@@ -117,6 +118,7 @@ function addAnswer(answerText, index, button_idx){
             box_children[i].disabled = true;
             box_children[i].style.animation = "fadeOut 0.5s";
         }
+        qna.style.animation = "fadeOut 0.5s";
         setTimeout(()=>{
             select[index] = button_idx;
             for (let i = 0; i<box_children.length; i++){
@@ -134,7 +136,10 @@ function nextQ(){
         return 0;
     }
 
+    qna.style.animation = "fadeIn 1s";
+
     let index = randomIndex();
+    qna.style.backgroundImage = `url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/abcd5f488e2c396ab993e5ab89a511574ad118d8/img/${index+1}_Q.svg")`;
 
     const question = document.querySelector(".question__content");
     question.innerHTML = qnaList[index].q;
@@ -146,7 +151,8 @@ function nextQ(){
     status.style.width = (100/endPoint) * (12-orderList.length) + '%';
 
     const statusNum = document.querySelector('.statusNum');
-    statusNum.innerHTML = 12-orderList.length + '/ 12'
+    statusNum.innerHTML = 12-orderList.length + ' / 12'
+    statusNum.classList.add("statusNum");
     // test_log
     // console.log(index, qnaList[index].q, qnaList[index].a);
 }
@@ -154,12 +160,14 @@ function nextQ(){
 //인트로 화면 넘어가기 (MBTI 검사 시작)
 function intro(){
     intro_main.style.animation = "fadeOut 1s";
+    body.style.animation = "fadeOut 1s";
     setTimeout(()=>{
         qna.style.animation = "fadeIn 1s";
+        intro_main.style.display = "none";
         setTimeout(()=>{
-            intro_main.style.display = "none";
+            body.style.backgroundImage = "url('https://raw.githubusercontent.com/mindongdong/PuangMBTI/abcd5f488e2c396ab993e5ab89a511574ad118d8/img/back.svg')";
             qna.style.display = "flex";
-        }, 400)
+        }, 1000)
         nextQ();
     }, 400);
 }
