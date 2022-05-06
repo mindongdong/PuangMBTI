@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: column;
 
-    background-image: url("/img/start.svg");
+    background-image: url("img/start.svg");
     background-size: cover;
     background-position: center;
 }
