@@ -1,6 +1,8 @@
 .start-main{
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    min-height: 100%;
+    min-width: 100%;
 
     display: flex;
     justify-content: center;
@@ -23,6 +25,9 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    font-family: 'LeeSeoyun';
+    font-size: 30px;
+    font-weight: 800;
 
     /* 버튼 옵션 */
     border: none;
@@ -69,3 +74,11 @@
     padding: 5%;
 }
 
+@media ( min-width: 500px ) {
+    .start-main{
+        width: 616px;
+        height: 716px;
+        /* width: 100vw;
+        height: 90vh; */
+    }
+}

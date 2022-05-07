@@ -7,13 +7,17 @@
 }
 
 .result-nameBox{
+    display: none;
     margin-bottom: 50px;
 }
 
 .result-imgBox__img{
-    width: 300px;
-    height: 300px;
-    margin-bottom: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.result-descBox{
+    display: none;
 }
 
 .result-descBox__desc1,

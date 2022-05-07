@@ -7,15 +7,33 @@
 @import "screen/result.css";
 @import "screen/intro.css";
 
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body{
-    width: 100vw;
+    /* width: 616px;
+    height: 716px; */
+    width: 117vw; 
     height: 100vh;
+    min-height: 100%;
+    min-width: 100%;
 
     background-image: url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/intro.svg");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position: right 100% bottom 50%;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
