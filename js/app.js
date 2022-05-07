@@ -139,7 +139,6 @@ function nextQ(){
     qna.style.animation = "fadeIn 1s";
 
     let index = randomIndex();
-    qna.style.backgroundImage = `url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/abcd5f488e2c396ab993e5ab89a511574ad118d8/img/${index+1}_Q.svg")`;
 
     const question = document.querySelector(".question__content");
     question.innerHTML = qnaList[index].q;
