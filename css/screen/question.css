@@ -18,19 +18,19 @@
     position: absolute;
     top: 30vh;
     width: 50vw;
-    height: 30vw;
+    height: 30vh;
     text-align: center;
     text-decoration: none;
 
     font-family: 'LeeSeoyun';
-    font-size: 20px;
+    font-size: 3vh;
 
-    line-height: 25px;
+    line-height: 3.5vh;
 }
 
 .answer{
     position: absolute;
-    bottom: 180px;
+    bottom: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,10 +38,10 @@
 }
 
 .answer_button{
-    width: 280px;
-    height: 80px;
-    margin-bottom: 25px;
-    padding: 5px;
+    width: 50vw;
+    height: 10vh;
+    margin-bottom: 3vh;
+    padding: 1vh;
     background-color:rgb(240, 234, 197);
     text-align: center;
     text-decoration: none;
@@ -52,7 +52,8 @@
     transition: 0.5s;
 
     font-family: 'LeeSeoyun';
-    font-size: 15px;
+    font-size: 2vh;
+    color: black;
 }
 
 .answer_button:hover,
@@ -64,11 +65,10 @@
 
 .status{
     position: absolute;
-    top: 40px;
-    height: 25px;
-    width: 50%;
+    top: 9vh;
+    height: 3.5vh;
+    width: 40vw;
     background-color: white;
-    margin: 20px;
     border-radius: 20px;
 }
 
@@ -84,15 +84,15 @@
     justify-content: center;
 
     position: absolute;
-    top: 110px;
-    right: 186px;
+    top: 15vh;
+    right: 36.5vw;
     text-align: center;
     border-radius: 10px;
     color: white;
 
-    width: 130px;
-    height: 70px;
-    font-size: 30px;
+    width: 25vw;
+    height: 10vh;
+    font-size: 4vh;
     font-family: 'LeeSeoyun';
     font-weight:bolder;
 }
