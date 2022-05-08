@@ -24,15 +24,15 @@
 
 .share-QR__info{
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-decoration: none;
     font-family: 'LeeSeoyun';
     font-weight: bold;
-    margin-bottom: 2vh;
+    margin-bottom: 1.3vh;
 }
 
 .share-QR__content_1,
 .share-QR__content_2{
-    width: 20vw;
-    height: 20vw;
+    width: 18vw;
+    height: 18vw;
 }
