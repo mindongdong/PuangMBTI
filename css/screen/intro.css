@@ -7,7 +7,6 @@
 }
 
 .intro-main__buttonBox{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,8 +17,8 @@
     position: absolute;
     
     /* 위치 조정 */
-    bottom: -30vh;
-    left: -30vw;
+    bottom: 20vh;
+    left: 27.5vw;
 
     /* 크기 조절 */
     width: 50vw;
