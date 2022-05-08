@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10%;
+    position: relative;
+    /* margin: 10%; */
 }
 
 .result-nameBox{
@@ -22,5 +23,19 @@
 
 .result-descBox__desc1,
 .result-descBox__desc2{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.result-shareButton{
+    position: absolute;
+    bottom: 16vh;
+    border: none;
+    width: 20vw;
+    height: 3vh;
+    color: white;
+    background-color: rgb(204, 156, 108);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    font-family: 'LeeSeoyun';
 }

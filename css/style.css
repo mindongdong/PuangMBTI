@@ -15,8 +15,8 @@ html{
 body{
     /* width: 616px;
     height: 716px; */
-    /* width: 110vw; 
-    height: 100vh; */
+    width: 110vw; 
+    height: 100vh;
     min-height: 100%;
     min-width: 100%;
 
@@ -36,13 +36,4 @@ body{
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-@media ( min-width: 500px ) {
-    body{
-        width: 616px;
-        height: 716px;
-        /* width: 100vw;
-        height: 90vh; */
-    }
 }

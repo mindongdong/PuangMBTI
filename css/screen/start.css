@@ -74,11 +74,3 @@
     padding: 5%;
 }
 
-@media ( min-width: 500px ) {
-    .start-main{
-        width: 616px;
-        height: 716px;
-        /* width: 100vw;
-        height: 90vh; */
-    }
-}
