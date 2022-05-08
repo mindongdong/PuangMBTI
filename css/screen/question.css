@@ -65,7 +65,7 @@
 
 .status{
     position: absolute;
-    top: 11.5vh;
+    top: 10vh;
     height: 3.5vh;
     width: 40vw;
     background-color: white;
@@ -84,15 +84,15 @@
     justify-content: center;
 
     position: absolute;
-    top: 16vh;
-    right: 34vw;
+    top: 15.5vh;
+    right: 36vw;
     text-align: center;
     border-radius: 10px;
     color: white;
 
     width: 25vw;
     height: 10vh;
-    font-size: 4vh;
+    font-size: 3.5vh;
     font-family: 'LeeSeoyun';
     font-weight:bolder;
 }
