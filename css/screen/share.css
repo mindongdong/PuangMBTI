@@ -1,0 +1,38 @@
+.share{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('https://raw.githubusercontent.com/mindongdong/PuangMBTI/283a68df5272d67f80e74285f5e9361e23ffe873/img/Q.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.share-QR{
+    width: 40vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.share-QR__info{
+    text-align: center;
+    font-size: 3vh;
+    text-decoration: none;
+    font-family: 'LeeSeoyun';
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.share-QR__content_1,
+.share-QR__content_2{
+    width: 20vw;
+    height: 20vw;
+}

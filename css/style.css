@@ -6,6 +6,7 @@
 @import "screen/question.css";
 @import "screen/result.css";
 @import "screen/intro.css";
+@import "screen/share.css";
 
 html{
     height: 100%;

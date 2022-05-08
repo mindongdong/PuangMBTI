@@ -3,12 +3,15 @@ const intro_main = document.querySelector(".intro-main")
 const start_main = document.querySelector(".start-main");
 const qna = document.querySelector(".qna");
 const result = document.querySelector(".result");
+const share = document.querySelector(".share")
 const start_button = document.querySelector(".start-main__button");
 const intro_button = document.querySelector(".intro-main__button");
+const share_button = document.querySelector(".result-shareButton");
 const endPoint = 12;
 
 intro_button.addEventListener('click', intro);
 start_button.addEventListener('click', start);
+share_button.addEventListener('click', goShare);
 
 //결과 계산
 function calResult(){
@@ -60,6 +63,7 @@ function calResult(){
     }
 } 
 
+//결과 이미지 출력 및 QR 코드 출력
 function setResult(){
     let resultIndex = calResult();
     const resultName = document.querySelector('.result-nameBox__name');
@@ -72,6 +76,12 @@ function setResult(){
     resultImg.src = imgURL;
     resultImg.classList.add('result-imgBox__img')
     imgBox.appendChild(resultImg);
+
+    const qrImg = document.querySelector('.share-QR__content_1');
+
+    let qrURL = (resultIndex+1) +'.png';
+    qrImg.src = qrURL;
+    
 
     const resultDesc_1 = document.querySelector('.result-descBox__desc1')
     const resultDesc_2 = document.querySelector('.result-descBox__desc2')
@@ -179,6 +189,18 @@ function start(){
         setTimeout(()=>{
             start_main.style.display = "none";
             intro_main.style.display = "flex";
+        }, 400)
+    }, 400);
+}
+
+//결과 공유 화면 전환
+function goShare(){
+    result.style.animation = "fadeOut 1s";
+    setTimeout(()=>{
+        share.style.animation = "fadeIn 1s";
+        setTimeout(()=>{
+            result.style.display = "none";
+            share.style.display = "flex";
         }, 400)
     }, 400);
 }
