@@ -1,7 +1,7 @@
 .qna{
     position: relative;
     display: none;
-    width: 105vw;
+    width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@
 
     position: absolute;
     top: 15.5vh;
-    right: 36vw;
+    right: 34vw;
     text-align: center;
     border-radius: 10px;
     color: white;
