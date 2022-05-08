@@ -79,7 +79,7 @@ function setResult(){
 
     const qrImg = document.querySelector('.share-QR__content_1');
 
-    let qrURL = (resultIndex+1) +'.png';
+    let qrURL = 'https://github.com/mindongdong/PuangMBTI/blob/gh-pages/img/' + (resultIndex+1) +'.png?raw=true';
     qrImg.src = qrURL;
     
 
