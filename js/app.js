@@ -72,7 +72,7 @@ function setResult(){
     const resultImg = document.createElement('img');
     const imgBox = document.querySelector('.result-imgBox');
 
-    let imgURL = 'https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/' + (resultIndex+1) + '_A.svg'
+    let imgURL = 'https://raw.githubusercontent.com/mindongdong/PuangMBTI/19b231299c86f31517afd6287c7248e640716220/img/' + (resultIndex+1) + '_A.svg'
     resultImg.src = imgURL;
     resultImg.classList.add('result-imgBox__img')
     imgBox.appendChild(resultImg);
@@ -81,7 +81,6 @@ function setResult(){
 
     let qrURL = 'https://github.com/mindongdong/PuangMBTI/blob/gh-pages/img/' + (resultIndex+1) +'.png?raw=true';
     qrImg.src = qrURL;
-    
 
     const resultDesc_1 = document.querySelector('.result-descBox__desc1')
     const resultDesc_2 = document.querySelector('.result-descBox__desc2')
