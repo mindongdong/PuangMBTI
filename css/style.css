@@ -7,23 +7,38 @@
 @import "screen/result.css";
 @import "screen/intro.css";
 @import "screen/share.css";
+@import "screen/mobile.css";
 
-body{
-    width: 100vw;
-    height: 100vh;
+body {
+  width: 100vw;
+  height: 100vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @font-face {
-    font-family: 'LeeSeoyun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "LeeSeoyun";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 760px) {
+  .prevent-mobile {
+    display: flex;
+  }
+  .start-main,
+  .intro-main,
+  .qna,
+  .result,
+  .share {
+    display: none;
+  }
 }

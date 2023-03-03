@@ -1,0 +1,32 @@
+.prevent-mobile{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9998;
+}
+
+.prevent-mobile__img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.prevent-mobile__textBox{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prevent-mobile__text{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
