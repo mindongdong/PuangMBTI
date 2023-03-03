@@ -19,8 +19,8 @@
   color: black;
   position: absolute;
   top: 30%;
-  width: 28%;
-  max-width: 23rem;
+
+  width: 25rem;
   height: 20%;
   text-align: center;
   text-decoration: none;
@@ -34,8 +34,7 @@
   position: absolute;
   bottom: 25%;
 
-  width: 28%;
-  max-width: 23rem;
+  width: 25rem;
 
   display: flex;
   align-items: center;
