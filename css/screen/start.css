@@ -18,7 +18,9 @@
 .start-main__button{
     /* 박스 설정 */
     width: 40%;
+    max-width: 35rem;
     height: 10%;
+    max-height: 10rem;
     background-color:rgb(173, 32, 32);
 
     /* 텍스트 설정 */
