@@ -2,6 +2,12 @@
     width: 100%;
     height: 100%;
     display: none;
+
+    background-image: url("https://raw.githubusercontent.com/mindongdong/PuangMBTI/d6d126be8fe972fe87b69d94cad51f8f1eecd50d/img/intro.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
     align-items: center;
     justify-content: center;
 }
@@ -17,18 +23,18 @@
     position: absolute;
     
     /* 위치 조정 */
-    bottom: 20vh;
-    left: 27.5vw;
+    bottom: 30%;
+    left: calc(50% - 15rem);
 
     /* 크기 조절 */
-    width: 50vw;
-    height: 9vh;
+    width: 30rem;
+    height: 5rem;
 
     /* 텍스트 설정 */
     text-align: center;
     font-family: 'LeeSeoyun';
     font-weight: 800;
-    font-size: 3vh;
+    font-size: 2rem;
     background-color:rgba(230, 69, 69, 0.966);
     text-align: center;
     text-decoration: none;
