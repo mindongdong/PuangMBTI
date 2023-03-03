@@ -1,6 +1,8 @@
 .share{
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+
     display: none;
     justify-content: center;
     align-items: center;
@@ -13,9 +15,9 @@
 }
 
 .share-QR{
-    width: 40vw;
-    height: 20vh;
-    margin-top: 5vh;
+    width: 12rem;
+    height: 12rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +26,16 @@
 
 .share-QR__info{
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: 'LeeSeoyun';
     font-weight: bold;
-    margin-bottom: 1.3vh;
+    margin-bottom: 1rem;
 }
 
 .share-QR__content_1,
 .share-QR__content_2{
-    width: 18vw;
-    height: 18vw;
+    width: 9rem;
+    height: 9rem;
+    object-fit: contain;
 }
