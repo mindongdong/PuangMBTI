@@ -20,7 +20,7 @@
   position: absolute;
   top: 30%;
   width: 28%;
-  max-width: 25rem;
+  max-width: 23rem;
   height: 20%;
   text-align: center;
   text-decoration: none;
@@ -35,8 +35,8 @@
   bottom: 25%;
 
   width: 28%;
-  max-width: 25rem;
-  
+  max-width: 23rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
