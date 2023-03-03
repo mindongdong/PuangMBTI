@@ -173,7 +173,7 @@ function intro(){
         qna.style.animation = "fadeIn 1s";
         intro_main.style.display = "none";
         setTimeout(()=>{
-            body.style.backgroundImage = "url('https://raw.githubusercontent.com/mindongdong/PuangMBTI/abcd5f488e2c396ab993e5ab89a511574ad118d8/img/back.svg')";
+            body.style.backgroundImage = "url('https://raw.githubusercontent.com/mindongdong/PuangMBTI/955dcc8b7a8ccaba1ceb60145dba90c0f3c3ae1e/img/back.svg')";
             qna.style.display = "flex";
         }, 1000)
         nextQ();
